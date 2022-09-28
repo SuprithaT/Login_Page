@@ -26,7 +26,7 @@ import Services from "./Components/Services.jsx"
 import Products from "./Components/Products.jsx"
 import Mobiles from "./Components/Mobiles.jsx"
 import Earphone from "./Components/Earphone.jsx"
-import Pnf from "./Components/Pnf.jsx"
+// import Pnf from "./Components/Pnf.jsx"
 import Login from "./Components/Login.jsx"
 function App(){
   return(
@@ -36,7 +36,7 @@ function App(){
         <Route path="/" element={<Home/>}/>
         <Route path="about" element={<About/>}/>
         <Route path="services" element={<Services/>}/>
-        <Route path="*" element={<Pnf/>}/>
+        {/* <Route path="*" element={<Pnf/>}/> */}
         <Route path="products" element={<Products/>}>
         <Route path="mobiles" element={<Mobiles/>}/>
         <Route path="earphone" element={<Earphone/>}/>
